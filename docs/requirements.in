@@ -1,0 +1,7 @@
+file:.#egg=referencing-http
+furo
+pygments-github-lexers
+sphinx
+sphinxcontrib-spelling
+sphinx-copybutton
+sphinxext-opengraph
