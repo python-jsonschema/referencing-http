@@ -12,9 +12,9 @@
   :alt: Supported Python versions
   :target: https://pypi.org/project/referencing-http/
 
-.. |CI| image:: https://github.com/Julian/referencing-http/workflows/CI/badge.svg
+.. |CI| image:: https://github.com/python-jsonschema/referencing-http/workflows/CI/badge.svg
   :alt: Build status
-  :target: https://github.com/Julian/referencing-http/actions?query=workflow%3ACI
+  :target: https://github.com/python-jsonschema/referencing-http/actions?query=workflow%3ACI
 
 
 .. |ReadTheDocs| image:: https://readthedocs.org/projects/referencing-http/badge/?version=stable&style=flat
