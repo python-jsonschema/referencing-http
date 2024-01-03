@@ -37,9 +37,6 @@ linkcheck_ignore = [
     entire_domain("img.shields.io"),
     "https://github.com/Julian/referencing-http/actions",
     "https://github.com/Julian/referencing-http/workflows/CI/badge.svg",
-    # REMOVEME: Once a release is out.
-    "https://pypi.org/project/referencing-http/",
-    entire_domain("referencing-http.readthedocs.io"),
 ]
 
 # = Extensions =
