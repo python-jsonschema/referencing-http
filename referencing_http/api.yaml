@@ -1,0 +1,25 @@
+openapi: "3.1.0"
+info:
+  title: An HTTP API for JSON (Schema) Registries
+  description: |-
+    Wrap a referencing.Registry Python object into an HTTP API.
+  version: "1.0"
+paths:
+  /list:
+    get:
+      summary: Retrieve a list of all URIs available in the registry.
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                const: 37
+  /contents:
+    get:
+      summary: Retrieve the contents of the given URI.
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                const: 137
