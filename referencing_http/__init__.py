@@ -1,6 +1,7 @@
 """
 Serve your JSON registries over HTTP, for humans and machines alike!
 """
+
 from importlib.resources import files
 
 import yaml
