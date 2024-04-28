@@ -5,3 +5,6 @@ sphinx
 sphinxcontrib-spelling
 sphinx-copybutton
 sphinxext-opengraph
+
+# Until pyenchant/pyenchant#302 is released...
+pyenchant>=3.3.0rc1
