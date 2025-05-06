@@ -4,21 +4,23 @@
 #
 #    pip-compile --strip-extras test-requirements.in
 #
-attrs==24.3.0
+attrs==25.3.0
     # via referencing
-iniconfig==2.0.0
+iniconfig==2.1.0
     # via pytest
-packaging==24.2
+packaging==25.0
     # via pytest
 pluggy==1.5.0
     # via pytest
-pytest==8.3.4
+pytest==8.3.5
     # via -r test-requirements.in
 pyyaml==6.0.2
     # via referencing-http
-referencing==0.35.1
+referencing==0.36.2
     # via referencing-http
 file:.#egg=referencing_http
     # via -r test-requirements.in
-rpds-py==0.22.3
+rpds-py==0.24.0
+    # via referencing
+typing-extensions==4.13.2
     # via referencing
